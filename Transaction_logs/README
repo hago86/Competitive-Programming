@@ -2,7 +2,7 @@ A Company parses logs of online store user transactions/activity to flag fraudul
 
 The log file is represented as an Array of arrays. The arrays consist of the following data:
 
-[ <# of transactions>]
+["<userid1> <userid2> <# of transactions>"]
 
 For example:
 
