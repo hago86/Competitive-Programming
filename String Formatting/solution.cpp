@@ -24,7 +24,10 @@ int main()
         idx++;
     }
     cout<<temp1<<endl;
-    
+    if (temp1.size() <= 3) {
+        cout<<temp1<<endl;
+        return 0;
+    }
     int count = 0;
     int balance = temp1.size()%3;
     string temp3, temp4;
@@ -54,7 +57,7 @@ int main()
         }
     }
     cout<<"idx "<<idx<<endl;
-    cout<<"temp2 "<<temp2+' '+temp4<<endl;
+    cout<<"Ans is "<<temp2+' '+temp4<<endl;
 
     return 0;
 }
